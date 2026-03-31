@@ -91,35 +91,41 @@ body {
 
 :root {
 	--body: #020c1e !important;
-	--primary: #0092E5;
-	--p-hover: #004799;
-	--p-100: #CCE9FA;
-	--p-200: #AADBF6;
-	--p-300: #80C9F2;
-	--p-400: #55B6EE;
-	--p-500: #2AA4E9;
-	--p-600: #0066BF;
-	--p-700: #004799;
-	--p-800: #002E73;
-	--p-900: #001C4C;
-	--p-dark: #00122E;
-	--p-darker: #001D2E;
-	--p-brand: #0092E5;
+	--primary: #15181F;
+	--p-hover: #3C3E44;
 
-	--secondary: #D90075;
-	--s-hover: #F2AAD1;
-	--s-50: #F7CCE3;
-	--s-100: #F2AAD1;
-	--s-200: #EC80BA;
-	--s-300: #E655A3;
-	--s-400: #DF2A8C;
-	--s-500: #DF2A8C;
-	--s-600: #D90075;
-	--s-700: #B50062;
-	--s-800: #91004E;
-	--s-900: #6D003B;
-	--s-dark: #480027;
-	--s-darker: #2B0017;
+	--p-100: #D0D1D2;
+	--p-200: #B1B2B4;
+	--p-300: #8A8C8F;
+	--p-400: #63656A;
+	--p-500: #3C3E44;
+	--p-600: #12141A;
+	--p-700: #0E1015;
+	--p-800: #0B0C10;
+	--p-900: #07080A;
+
+	--p-dark: #040506;
+	--p-darker: #040506;
+	--p-brand: #15181F;
+
+
+	/* SECONDARY (pomarańczowa skala) */
+	--secondary: #F18818;
+	--s-hover: #F39C3E;
+
+	--s-50: #FCE7D1;
+	--s-100: #FCE7D1;
+	--s-200: #FAD7B2;
+	--s-300: #F8C48C;
+	--s-400: #F6B065;
+	--s-500: #F39C3E;
+	--s-600: #F18818;
+	--s-700: #C97114;
+	--s-800: #A15B10;
+	--s-900: #79440C;
+
+	--s-dark: #502D08;
+	--s-darker: #301B05;
 
 	--text-p-light: var(--p-200);
 	--text-p-lighter: var(--p-400);
@@ -127,8 +133,8 @@ body {
 	--text-s-lighter: var(--s-200);
 
 	--gray: #63656a;
-	--bg: #000640;
-	--bg-dark: #00052d;
+	--bg: #232323;
+	--bg-dark: #151515;
 	--bg-p-brand: var(--p-brand);
 	--bg-p-dark: var(--p-800);
 	--bg-p-light: var(--p-200);
