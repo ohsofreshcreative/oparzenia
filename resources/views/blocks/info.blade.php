@@ -31,13 +31,13 @@ $sectionClass .= ' ' . $background;
 
 			<div class="__second">
 
-				<div data-gsap-element="txt" class="__txt text-white">
+				<div data-gsap-element="txt" class="__txt text-white pb-3">
 					{!! $g_info['txt'] !!}
 				</div>
 
 				 @if (!empty($g_info['r_info']))
                     @foreach ($g_info['r_info'] as $item)
-                    <div data-gsap-element="card" class="__card flex items-start gap-6 mt-8">
+                    <div data-gsap-element="card" class="__card flex items-start gap-6 pt-8">
                         <img class="" src="{{ $item['image']['url'] }}" alt="{{ $item['image']['alt'] ?? '' }}" />
                         <div>
                             <h6 class="text-white">{{ $item['header'] }}</h6>
