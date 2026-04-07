@@ -42,7 +42,7 @@ $sectionClass .= $flip ? ' order-flip' : '';
             </div>
 
             <div data-gsap-element="info" class="__info flex flex-col md:flex-row gap-6 mt-6">
-                <div class="flex gap-2">
+                <div class="flex items-center gap-2">
                     <div>
                         <img src="/wp-content/uploads/2025/11/calendar.svg" />
                     </div>
@@ -50,7 +50,7 @@ $sectionClass .= $flip ? ' order-flip' : '';
                         {!! $g_hero['date'] !!}
                     </div>
                 </div>
-                <div class="flex gap-2">
+                <div class="flex items-center gap-2">
                     <div>
                         <img src="/wp-content/uploads/2025/11/place.svg" />
                     </div>

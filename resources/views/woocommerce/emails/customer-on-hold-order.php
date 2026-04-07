@@ -26,7 +26,7 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 
 <p>Dzień dobry,</p>
 
-<p>bardzo dziękujemy za rejestrację na konferencję V Forum Pielęgniarstwa Anestezjologicznego, która odbędzie się w dniach 10-12 czerwca 2026 r. w Hotelu Bachleda Kasprowy, Zakopane. </p>
+<p>bardzo dziękujemy za rejestrację na konferencję Oparzenia 2026, która odbędzie się w dniach 21-23 października 2026 r. w Hotelu Bachleda Kasprowy, Zakopane. <b>Twoje zgłoszenie zostało przyjęte.</b></p>
 
 <b>Twoje zgłoszenie zostało przyjęte.</b>
 
@@ -38,7 +38,7 @@ ul. Paprociowa 13<br>
 04-751 Warszawa<br><br>
 <b>nr konta:</b><br>
 48 1090 1753 0000 0001 4680 1357 <br>
-<b>tytuł:</b><br> imię i nazwisko uczestnika – konferencja FPA2026.</p><br>
+<b>tytuł:</b><br> imię i nazwisko uczestnika – konferencja Oparzenia 2026.</p><br>
 
 <?php
 
