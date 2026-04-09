@@ -29,23 +29,25 @@ $sectionClass .= ' ' . $background;
 				@endif
 			</div>
 
-			<div class="__second">
+			<div class="__second flex flex-col">
 
 				<div data-gsap-element="txt" class="__txt text-white pb-3">
 					{!! $g_info['txt'] !!}
 				</div>
 
-				 @if (!empty($g_info['r_info']))
-                    @foreach ($g_info['r_info'] as $item)
-                    <div data-gsap-element="card" class="__card flex items-start gap-6 pt-8">
-                        <img class="" src="{{ $item['image']['url'] }}" alt="{{ $item['image']['alt'] ?? '' }}" />
-                        <div>
-                            <h6 class="text-white">{{ $item['header'] }}</h6>
-                            <p class="text-white mt-4">{{ $item['text'] }}</p>
-                        </div>
-                    </div>
-                    @endforeach
-                @endif
+				<div class="__cards mt-auto">
+					@if (!empty($g_info['r_info']))
+					@foreach ($g_info['r_info'] as $item)
+					<div data-gsap-element="card" class="__card flex items-start gap-6 pt-8">
+						<img class="" src="{{ $item['image']['url'] }}" alt="{{ $item['image']['alt'] ?? '' }}" />
+						<div>
+							<h6 class="text-white">{{ $item['header'] }}</h6>
+							<p class="text-white mt-4">{{ $item['text'] }}</p>
+						</div>
+					</div>
+					@endforeach
+					@endif
+				</div>
 
 
 				@if (!empty($g_info['button']))
