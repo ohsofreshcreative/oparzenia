@@ -21,6 +21,8 @@ $sectionClass .= $whitebg ? ' section-white' : '';
 $sectionClass .= $brandbg ? ' section-brand' : '';
 @endphp
 
+<!--- partners -->
+
 <section @if(!empty($section_id)) id="{{ $section_id }}" @endif class="partners -smt {{ $sectionClass }} {{ $section_class }}">
 	<div class="c-main">
 		@if ($r_partners)
@@ -35,8 +37,8 @@ $sectionClass .= $brandbg ? ' section-brand' : '';
 				@foreach ($group['logos'] as $logo)
 				@if (!empty($logo['img']))
 				@if (!empty($logo['link']))
-				<a href="{{ $logo['link'] }}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center bg-white h-[120px]">
-					<img src="{{ $logo['img']['url'] }}" alt="{{ $logo['img']['alt'] ?? 'Logo partnera' }}" class="max-h-16 w-auto">
+				<a href="{{ $logo['link'] }}" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center bg-white h-[140px]">
+					<img src="{{ $logo['img']['url'] }}" alt="{{ $logo['img']['alt'] ?? 'Logo partnera' }}" class="max-h-20 w-auto">
 				</a>
 				@else
 				<div class="flex items-center justify-center bg-white h-[120px]">

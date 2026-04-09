@@ -10,25 +10,22 @@ $sectionClass .= $whitebg ? ' section-white' : '';
 $sectionClass .= $brandbg ? ' section-brand' : '';
 @endphp
 
+<!--- experts -->
+
 <section data-gsap-anim="section" @if(!empty($section_id)) id="{{ $section_id }}" @endif class="b-experts -smt {{ $sectionClass }} {{ $section_class }}">
 
-	<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12 items-center">
+	<div class="c-main grid grid-cols-1 lg:grid-cols-2 gap-6 md:gap-12 items-center">
 		@if (!empty($gallery))
-		<div class="swiper usage-swiper !overflow-hidden w-11/12 lg:w-full mx-auto">
-
-			<div class="swiper-wrapper">
-				@foreach($gallery as $image)
-				 <div class="swiper-slide">
-                    {!! wp_get_attachment_image($image['ID'], 'full', false, ['class' => 'w-full h-full object-cover']) !!}
-                </div>
-				@endforeach
-			</div>
+		@foreach($gallery as $image)
+		<div>
+			{!! wp_get_attachment_image($image['ID'], 'full', false, ['class' => 'w-full h-full max-h-[600px] object-top object-cover']) !!}
 		</div>
+		@endforeach
 		@endif
 
 		<div class="__content order2">
 			<div class="w-11/12 md:w-3/4 m-auto">
-				<p data-gsap-element="subtitle" class="__subtitle subtitle-s">{{ $g_experts['subtitle'] }}</p>
+				<p data-gsap-element="subtitle" class="__subtitle subtitle-p">{{ $g_experts['subtitle'] }}</p>
 				<h2 data-gsap-element="header" class="text-white">{{ $g_experts['header'] }}</h2>
 				<div data-gsap-element="txt" class="text-white mt-2">
 					{!! $g_experts['txt'] !!}

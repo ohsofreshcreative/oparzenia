@@ -19,7 +19,7 @@ $description = $product->get_description();
 
 	<div>
 		<h5 class="woocommerce-loop-product__title">
-			<a class="text-white" href="{{ get_permalink() }}">{{ $product_about['name'] }}</a>
+			<a class="secondary" href="{{ get_permalink() }}">{{ $product_about['name'] }}</a>
 		</h5>
 		@if ($description)
 		<div class="text-sm mt-4 text-white">{!! $description !!}</div>

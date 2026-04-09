@@ -430,15 +430,14 @@ a {
 
 .subtitle-p {
 	display: block;
-	font-size: 16px;
-	color: var(--p-400);
+	font-size: 18px;
+	font-weight: 500;
+	color: var(--s-700);
 	padding-bottom: 16px;
+	text-transform: uppercase;
 }
 
-.subtitle-p:before {
-	content: '•';
-	margin-right: 8px;
-}
+.subtitle-p:before {}
 
 .subtitle-s {
 	display: block;
@@ -513,6 +512,10 @@ h6,
 }
 
 /*--- !COLORS ---*/
+
+.primary {
+	color: var(--primary);
+}
 
 .primary {
 	color: var(--primary);
@@ -1366,7 +1369,7 @@ article.post:hover img {
 .products.grid {
 	.product__card {
 		h6 {
-			color: var(--p-400);
+			color: var(--p-300);
 			font-size: 18px;
 		}
 
@@ -1619,6 +1622,15 @@ article.post:hover img {
 }
 
 /*--- !THANK YOU PAGE ---*/
+
+.payu-payment-status-title {
+	color:#FFF !important; 
+	font-size:24px !important;
+}
+
+#payu-payment-status>.payu-payment-status-title>img {
+    filter: invert(1) !important;
+}
 
 .order-again {
 	display: none !important;

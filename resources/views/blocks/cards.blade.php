@@ -18,7 +18,7 @@ $sectionClass .= $brandbg ? ' section-brand' : '';
 
 			<div class="__top grid grid-cols-1 md:grid-cols-2 items-end gap-8">
 				<div class="__header">
-					<p data-gsap-element="subtitle" class="__subtitle subtitle-s">{{ strip_tags($g_cards['subtitle']) }}</p>
+					<p data-gsap-element="subtitle" class="__subtitle subtitle-p">{{ strip_tags($g_cards['subtitle']) }}</p>
 					<h2 data-gsap-element="header" class="text-white">{{ strip_tags($g_cards['header']) }}</h2>
 				</div>
 				<div data-gsap-element="txt" class="text-2xl text-white">
