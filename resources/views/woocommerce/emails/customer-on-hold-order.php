@@ -26,19 +26,8 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 
 <p>Dzień dobry,</p>
 
-<p>bardzo dziękujemy za rejestrację na konferencję Oparzenia 2026, która odbędzie się w dniach 21-23 października 2026 r. w Hotelu Bachleda Kasprowy, Zakopane. <b>Twoje zgłoszenie zostało przyjęte.</b></p>
-
-<b>Twoje zgłoszenie zostało przyjęte.</b>
-
-<b>Prosimy o wpłatę w ciągu 7 dni na nasze konto bankowe, po tym terminie rejestracja zostaje anulowana.</b><br><br>
-
-<b>Dane do przelewu:</b>
-<p>Evereth Publishing Sp. z o.o.<br>
-ul. Paprociowa 13<br>
-04-751 Warszawa<br><br>
-<b>nr konta:</b><br>
-48 1090 1753 0000 0001 4680 1357 <br>
-<b>tytuł:</b><br> imię i nazwisko uczestnika – konferencja Oparzenia 2026.</p><br>
+<p>Bardzo dziękujemy za rejestrację na konferencję Oparzenia 2026, która odbędzie się w dniach 21-23 października 2026 r. w Hotelu Bachleda Kasprowy, Zakopane. Twoje zgłoszenie zostało przyjęte i oczekuje na opłatę.</p><br>
+<p>Pro forma zostanie wystawiona na dane do faktury podane w formularzu i przesłana na wskazany adres mailowy płatnika. Prosimy o terminowe wpłaty. Nieuiszczenie opłaty w terminie będzie skutkowało usunięciem rejestracji uczestnika.</p>
 
 <?php
 
