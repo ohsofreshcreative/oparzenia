@@ -31,7 +31,6 @@ $email_improvements_enabled = FeaturesUtil::feature_is_enabled( 'email_improveme
  */
 do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 
-<p>Dziękujemy za rejestrację na Oparzenia 2026</p>
 <p>Ta wiadomość jest generowana automatycznie, prosimy na nią nie odpowiadać</p><br><br>
 <p>Dzień dobry,</p>
 <p>Ze względu na brak opłaty poniższe zamówienie zostało anulowane.</p>

@@ -27,7 +27,6 @@ do_action( 'woocommerce_email_header', $email_heading, $email ); ?>
 <p>Dzień dobry,</p>
 
 <p>Bardzo dziękujemy za rejestrację na konferencję Oparzenia 2026, która odbędzie się w dniach 21-23 października 2026 r. w Hotelu Bachleda Kasprowy, Zakopane. Twoje zgłoszenie zostało przyjęte i oczekuje na opłatę.</p><br>
-<p>Pro forma zostanie wystawiona na dane do faktury podane w formularzu i przesłana na wskazany adres mailowy płatnika. Prosimy o terminowe wpłaty. Nieuiszczenie opłaty w terminie będzie skutkowało usunięciem rejestracji uczestnika.</p>
 
 <?php
 
